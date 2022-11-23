@@ -1,4 +1,4 @@
-# Git command basic commands
+# Git basic commands
 
 - <a href="https://github.com/NullBrunk/git-cheat-sheet/blob/main/README.md#add">Add</a>
 - <a href="https://github.com/NullBrunk/git-cheat-sheet/blob/main/README.md#remove">Remove</a>
