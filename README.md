@@ -33,7 +33,7 @@ git push
 https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls
 
 
-### Pull
+## Pull
 
 Get latest modification from the remote repo
 ```bash
@@ -43,9 +43,9 @@ git pull
 ![pull](https://user-images.githubusercontent.com/106782577/203603859-0359b738-c98b-412b-b27b-7bff2a300206.png)
 
 
-### Remove
+## Remove
 
-Git clone the repon, cd on it, and use the `git rm` command
+Git clone the repo, cd on it, and use the `git rm` command
 ```
 git rm nomfichier.txt
 ```
