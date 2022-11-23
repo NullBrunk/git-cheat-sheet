@@ -25,8 +25,9 @@ and push the modifications :
 ```bash
 git push
 ```
+![push](https://user-images.githubusercontent.com/106782577/203605233-7f7e144c-fa33-4bb2-a23e-d1ab58c66d32.png)
 
-![push](https://user-images.githubusercontent.com/106782577/203602898-6964181f-ef2f-4050-84cb-5ad9e9252a16.png)
+
 
 **NOTE : when github ask's you for your password, put your personal access token instead : **     
 https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls
