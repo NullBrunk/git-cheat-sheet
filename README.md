@@ -11,10 +11,10 @@ To add a file to the remote repository, clone the repo and put the file you want
 ```bash
 git clone https://github.com/Blah/blah.git
 cd blah/
-# Now create or copy a file in blah/
 ```
+Now **create / edit / copy** a file in blah/
 
-then git add your file with the command
+then use 
 ```bash
 git add -A
 ```
