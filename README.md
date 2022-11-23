@@ -1,16 +1,9 @@
 # Git command basic commands
 
-- <a href="">Clone</a>
-- <a href="">Add</a>
-- <a href="">Pull</a>
-- <a href="">Remove</a>
+- <a href="https://github.com/NullBrunk/git-cheat-sheet/blob/main/README.md#add">Add</a>
+- <a href="https://github.com/NullBrunk/git-cheat-sheet/blob/main/README.md#remove">Remove</a>
+- <a href="https://github.com/NullBrunk/git-cheat-sheet/blob/main/README.md#pull">Pull</a>
 
-
-# Clone
-Clone a remote repository
-```bash
-git clone http://github.com/Blah/blah.git
-```
 
 # Add
 To add a file to the remote repository, clone the repo and put the file you want to add in it :
@@ -43,15 +36,6 @@ git push
 https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls
 
 
-# Pull
-
-Get latest modification from the remote repo
-```bash
-git pull
-```
-
-![pull](https://user-images.githubusercontent.com/106782577/203603859-0359b738-c98b-412b-b27b-7bff2a300206.png)
-
 
 # Remove
 
@@ -70,7 +54,19 @@ Create the commit and push
 git commit -m "removed file" && git push
 ```
 
+### Example :
+
 ![del](https://user-images.githubusercontent.com/106782577/203604717-af431a01-5645-472e-9071-39761e6761b8.png)
 
 
+# Pull
+
+Get latest modification from the remote repo
+```bash
+git pull
+```
+
+### Example
+
+![pull](https://user-images.githubusercontent.com/106782577/203603859-0359b738-c98b-412b-b27b-7bff2a300206.png)
 
