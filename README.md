@@ -10,7 +10,8 @@ To add a file to the remote repository, clone the repo and put the file you want
 
 ```bash
 git clone https://github.com/Blah/blah.git
-cp file_to_add blah/
+cd blah/
+# Now create or copy a file in blah/
 ```
 
 then git add your file with the command
@@ -29,7 +30,7 @@ git push
 ```
 
 ### Example :
-![ASDDD](https://user-images.githubusercontent.com/106782577/203607076-a2210c2c-6465-4ef8-97a8-18ed2ed18641.png)
+![ADDAFILE](https://user-images.githubusercontent.com/106782577/203608593-dd9db07f-db2f-4803-9075-16a113b2b0fa.png)
 
 
 **NOTE : when github ask's you for your password, put your personal access token instead :**     
@@ -56,7 +57,7 @@ git commit -m "removed file" && git push
 
 ### Example :
 
-![del](https://user-images.githubusercontent.com/106782577/203604717-af431a01-5645-472e-9071-39761e6761b8.png)
+![REMOVE](https://user-images.githubusercontent.com/106782577/203609294-b3dd5761-1283-48fd-92f0-f1de57e36f3d.png)
 
 
 # Pull
