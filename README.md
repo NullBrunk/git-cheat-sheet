@@ -20,7 +20,7 @@ git add -A
 
 create the commit 
 ```bash
-git commit -m "added the README file"
+git commit -m "added the file_to_add file !"
 ```
 
 and push the modifications :
