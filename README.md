@@ -1,12 +1,10 @@
-# Git command Cheat-Sheet
-
-## Clone
+# Clone
 Clone a remote repository
 ```bash
 git clone http://github.com/Blah/blah.git
 ```
 
-## Add
+# Add
 To add a file to the remote repository, clone the repo and put the file you want to add in it :
 
 ![cpinit](https://user-images.githubusercontent.com/106782577/203600915-9263db5e-e1f8-453f-9080-299aa7314c14.png)
@@ -33,7 +31,7 @@ git push
 https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls
 
 
-## Pull
+# Pull
 
 Get latest modification from the remote repo
 ```bash
@@ -43,7 +41,7 @@ git pull
 ![pull](https://user-images.githubusercontent.com/106782577/203603859-0359b738-c98b-412b-b27b-7bff2a300206.png)
 
 
-## Remove
+# Remove
 
 Git clone the repo, cd on it, and use the `git rm` command
 ```
