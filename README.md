@@ -13,7 +13,7 @@ then git add your file with the command
 ```bash
 git add -A
 ```
-(git add -A to add all the new files, if you want to ONLY add a file, use git add *nameofthefile*)
+(git add -A to add all the new files, if you want to add ONLY ONE file, use ``git add nameofthefile``)
 
 create the commit 
 ```bash
