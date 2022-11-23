@@ -7,9 +7,7 @@ git clone http://github.com/Blah/blah.git
 ```
 
 ## Add
-To add a file to the remote repository
-
-Clone the repo and put the file you want to add in it
+To add a file to the remote repository, clone the repo and put the file you want to add in it :
 
 ![cpinit](https://user-images.githubusercontent.com/106782577/203600915-9263db5e-e1f8-453f-9080-299aa7314c14.png)
 
