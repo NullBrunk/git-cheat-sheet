@@ -6,15 +6,20 @@
 
 
 # Add
-To add a file to the remote repository, clone the repo and put the file you want to add in it :
+To add a file to the remote repository, clone the repo and cd in it :
 
 ```bash
 git clone https://github.com/Blah/blah.git
 cd blah/
 ```
-Now **create / edit / copy** a file in blah/
+Now **create / edit / copy** a file in the git directory (in this example : blah/), for example :
 
-then use 
+```bash
+echo "Hello World" > hello.txt
+```
+
+then to "execute" all the modifications :
+
 ```bash
 git add -A
 ```
@@ -28,10 +33,6 @@ and push the modifications :
 ```bash
 git push
 ```
-
-### Example :
-![ADDAFILE](https://user-images.githubusercontent.com/106782577/203608593-dd9db07f-db2f-4803-9075-16a113b2b0fa.png)
-
 
 **NOTE : when github ask's you for your password, put your personal access token instead :**     
 https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls
@@ -55,19 +56,12 @@ Create the commit and push
 git commit -m "removed file" && git push
 ```
 
-### Example :
-
-![REMOVE](https://user-images.githubusercontent.com/106782577/203609294-b3dd5761-1283-48fd-92f0-f1de57e36f3d.png)
-
 
 # Pull
 
-Get latest modification from the remote repo
+To get latest modification from the remote repo you can use :
+
 ```bash
 git pull
 ```
-
-### Example
-
-![pull](https://user-images.githubusercontent.com/106782577/203603859-0359b738-c98b-412b-b27b-7bff2a300206.png)
 
