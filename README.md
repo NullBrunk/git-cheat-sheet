@@ -21,15 +21,24 @@ echo "Hello World" > hello.txt
 then to "execute" all the modifications :
 
 ```bash
-git add -A
+git add -A    # To add all the modified file
+git commit -m "added the file_to_add file !"     # commit the modification
 ```
 
-create the commit 
+you have an alias for this
+
 ```bash
-git commit -m "added the file_to_add file !"
+git commit -am "Added and commited in one command !"
 ```
 
-and push the modifications :
+if you have any problem with your git commit command (like the message for example)
+you can use git commit --ammend
+
+```bash
+git commit --ammend -m "Changing the commit message ..."
+```
+
+then you can push the modifications :
 ```bash
 git push
 ```
